@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Collective a Photo Gallery Category Flat bootstrap Responsive website Template | Photo Gallery</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="assets/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="assets/css/lightbox.css">
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="assets/js/mootools-yui-compressed.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <!-- banner-text Slider starts Here -->
+		<script src="assets/js/responsiveslides.min.js"></script>
+
+</head>
+<body>
+  <app-root>Loading...</app-root>
+  
+	<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
+	 <script src="assets/js/bootstrap.js"></script>
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="assets/js/move-top.js"></script>
+	<script type="text/javascript" src="assets/js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#horizontalTab').easyResponsiveTabs({
+					type: 'default', //Types: default, vertical, accordion           
+					width: 'auto', //auto or any width like 600px
+					fit: true   // 100% fit in a container
+				});
+			});
+		</script>	
+	<!--FlexSlider-->
+	
+	<script type="text/javascript">
+	$(document).ready(function () {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		start: function(slider){
+		  $('body').removeClass('loading');
+		}
+	  });
+	});
+  </script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+   
+</body>
+</html>
